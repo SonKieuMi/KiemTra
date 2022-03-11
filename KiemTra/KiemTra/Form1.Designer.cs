@@ -41,9 +41,9 @@ namespace KiemTra
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(96, 49);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 17);
+            this.label1.Size = new System.Drawing.Size(100, 17);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Username";
+            this.label1.Text = "tên đăng nhập";
             // 
             // textboxusername
             // 
@@ -58,9 +58,10 @@ namespace KiemTra
             this.lab.Location = new System.Drawing.Point(96, 103);
             this.lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lab.Name = "lab";
-            this.lab.Size = new System.Drawing.Size(69, 17);
+            this.lab.Size = new System.Drawing.Size(66, 17);
             this.lab.TabIndex = 2;
-            this.lab.Text = "Password";
+            this.lab.Text = "mật khẩu";
+            this.lab.Click += new System.EventHandler(this.lab_Click);
             // 
             // textboxmatkhau
             // 
@@ -74,9 +75,9 @@ namespace KiemTra
             // 
             this.btnlogin.Location = new System.Drawing.Point(274, 177);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(75, 23);
+            this.btnlogin.Size = new System.Drawing.Size(116, 34);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "login";
+            this.btnlogin.Text = "đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
