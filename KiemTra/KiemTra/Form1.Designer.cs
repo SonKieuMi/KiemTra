@@ -32,7 +32,8 @@ namespace KiemTra
             this.label1 = new System.Windows.Forms.Label();
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.lab = new System.Windows.Forms.Label();
-            this.txtmatkhau = new System.Windows.Forms.TextBox();
+            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -57,24 +58,38 @@ namespace KiemTra
             // 
             this.lab.AutoSize = true;
             this.lab.Location = new System.Drawing.Point(192, 200);
+            this.lab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lab.Name = "lab";
             this.lab.Size = new System.Drawing.Size(131, 32);
             this.lab.TabIndex = 2;
             this.lab.Text = "mật khẩu";
+            this.lab.Click += new System.EventHandler(this.lab_Click);
             // 
-            // txtmatkhau
+            // txtpassword
             // 
-            this.txtmatkhau.Location = new System.Drawing.Point(548, 215);
-            this.txtmatkhau.Name = "txtmatkhau";
-            this.txtmatkhau.Size = new System.Drawing.Size(196, 38);
-            this.txtmatkhau.TabIndex = 3;
+            this.txtpassword.Location = new System.Drawing.Point(548, 215);
+            this.txtpassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtpassword.Name = "txtpassword";
+            this.txtpassword.Size = new System.Drawing.Size(196, 38);
+            this.txtpassword.TabIndex = 3;
+            // 
+            // btnlogin
+            // 
+            this.btnlogin.Location = new System.Drawing.Point(548, 343);
+            this.btnlogin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnlogin.Name = "btnlogin";
+            this.btnlogin.Size = new System.Drawing.Size(150, 45);
+            this.btnlogin.TabIndex = 4;
+            this.btnlogin.Text = "login";
+            this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1526, 450);
-            this.Controls.Add(this.txtmatkhau);
+            this.Controls.Add(this.btnlogin);
+            this.Controls.Add(this.txtpassword);
             this.Controls.Add(this.lab);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.label1);
@@ -91,7 +106,8 @@ namespace KiemTra
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label lab;
-        private System.Windows.Forms.TextBox txtmatkhau;
+        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.Button btnlogin;
     }
 }
 

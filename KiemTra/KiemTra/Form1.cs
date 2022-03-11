@@ -16,5 +16,10 @@ namespace KiemTra
         {
             InitializeComponent();
         }
+
+        private void lab_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
