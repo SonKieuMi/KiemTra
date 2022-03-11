@@ -60,9 +60,9 @@ namespace KiemTra
             this.lab.Location = new System.Drawing.Point(192, 200);
             this.lab.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lab.Name = "lab";
-            this.lab.Size = new System.Drawing.Size(131, 32);
+            this.lab.Size = new System.Drawing.Size(139, 32);
             this.lab.TabIndex = 2;
-            this.lab.Text = "mật khẩu";
+            this.lab.Text = "mật khẩu:";
             this.lab.Click += new System.EventHandler(this.lab_Click);
             // 
             // txtpassword
