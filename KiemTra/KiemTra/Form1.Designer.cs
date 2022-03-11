@@ -41,9 +41,9 @@ namespace KiemTra
             this.label1.Location = new System.Drawing.Point(192, 95);
             this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 32);
+            this.label1.Size = new System.Drawing.Size(197, 32);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Username";
+            this.label1.Text = "tên đăng nhập";
             // 
             // txtUserName
             // 
@@ -60,7 +60,7 @@ namespace KiemTra
             this.lab.Name = "lab";
             this.lab.Size = new System.Drawing.Size(131, 32);
             this.lab.TabIndex = 2;
-            this.lab.Text = "Mật khẩu";
+            this.lab.Text = "mật khẩu";
             // 
             // txtmatkhau
             // 
