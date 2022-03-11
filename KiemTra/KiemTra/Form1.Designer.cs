@@ -30,9 +30,9 @@ namespace KiemTra
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
             this.lab = new System.Windows.Forms.Label();
-            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -46,13 +46,13 @@ namespace KiemTra
             this.label1.TabIndex = 0;
             this.label1.Text = "tên đăng nhập";
             // 
-            // txtUserName
+            // textboxusername
             // 
-            this.txtUserName.Location = new System.Drawing.Point(548, 95);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(196, 38);
-            this.txtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(548, 95);
+            this.textboxusername.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(196, 38);
+            this.textboxusername.TabIndex = 1;
             // 
             // lab
             // 
@@ -65,23 +65,24 @@ namespace KiemTra
             this.lab.Text = "mật khẩu:";
             this.lab.Click += new System.EventHandler(this.lab_Click);
             // 
-            // txtpassword
+            // textboxmatkhau
             // 
-            this.txtpassword.Location = new System.Drawing.Point(548, 215);
-            this.txtpassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(196, 38);
-            this.txtpassword.TabIndex = 3;
+            this.textboxmatkhau.Location = new System.Drawing.Point(548, 215);
+            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(196, 38);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // btnlogin
             // 
             this.btnlogin.Location = new System.Drawing.Point(548, 343);
             this.btnlogin.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(150, 45);
+            this.btnlogin.Size = new System.Drawing.Size(232, 66);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "login";
+            this.btnlogin.Text = "đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 
@@ -89,9 +90,9 @@ namespace KiemTra
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1526, 450);
             this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.txtpassword);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.lab);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
@@ -104,9 +105,9 @@ namespace KiemTra
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label lab;
-        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Button btnlogin;
     }
 }
