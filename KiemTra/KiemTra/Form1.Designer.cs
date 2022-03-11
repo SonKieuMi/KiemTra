@@ -30,9 +30,9 @@ namespace KiemTra
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
             this.lab = new System.Windows.Forms.Label();
-            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,12 +45,12 @@ namespace KiemTra
             this.label1.TabIndex = 0;
             this.label1.Text = "Username";
             // 
-            // txtUserName
+            // textboxusername
             // 
-            this.txtUserName.Location = new System.Drawing.Point(274, 49);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(100, 22);
-            this.txtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(274, 49);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(100, 22);
+            this.textboxusername.TabIndex = 1;
             // 
             // lab
             // 
@@ -62,13 +62,13 @@ namespace KiemTra
             this.lab.TabIndex = 2;
             this.lab.Text = "Password";
             // 
-            // txtpassword
+            // textboxmatkhau
             // 
-            this.txtpassword.Location = new System.Drawing.Point(274, 111);
-            this.txtpassword.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(100, 22);
-            this.txtpassword.TabIndex = 3;
+            this.textboxmatkhau.Location = new System.Drawing.Point(274, 111);
+            this.textboxmatkhau.Margin = new System.Windows.Forms.Padding(2);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(100, 22);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // btnlogin
             // 
@@ -85,11 +85,11 @@ namespace KiemTra
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(763, 232);
             this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.txtpassword);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.lab);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -100,9 +100,9 @@ namespace KiemTra
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label lab;
-        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Button btnlogin;
     }
 }
